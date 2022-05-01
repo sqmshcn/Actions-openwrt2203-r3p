@@ -19,6 +19,11 @@ on:
         required: false
         default: 'false'
 
+permissions:
+  contents: write
+  packages: write
+  issues: write
+  
 env:
   REPO_URL: https://github.com/lede-project/source
   REPO_BRANCH: openwrt-22.03
